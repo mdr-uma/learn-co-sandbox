@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "bestdessert2019_cli/version"
+require "bestdessertsof2019_cli/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "bestdessert2019_cli"
-  spec.version       = Bestdessert2019Cli::VERSION
+  spec.name          = "bestdessertsof2019_cli"
+  spec.version       = Bestdessertsof2019Cli::VERSION
   spec.authors       = ["'Uma Manandhar'"]
   spec.email         = ["'um_2003_8@hotmail.com'"]
 
